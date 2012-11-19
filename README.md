@@ -3,7 +3,7 @@
 ### Basic options
 
 ```javascript
-$('#container').stickyPageHeadings();
+$('section.sticky').stickyPageHeadings();
 ```
 
 Check out the [demo here](http://polarblau.github.com/stickySectionHeaders/).
@@ -41,7 +41,7 @@ $('section.sticky').stickyPageHeadings({
 ### CSS
 
 ```css
-#events h2 {
+h2 {
   position: relative;
   z-index: 1;
   color: white;
@@ -50,13 +50,13 @@ $('section.sticky').stickyPageHeadings({
   margin:2em 0 1em; 
   margin-bottom:2em;
 }
-#events h2.sticky {
+section.sticky h2.sticky {
   position: fixed;
   margin-top:0;
   top:0;
   z-index: 2;
 }
-#events h2.hidden {
+section.sticky h2.hidden {
   display: none;
 }
 ```
