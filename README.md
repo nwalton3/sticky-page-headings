@@ -3,7 +3,7 @@
 ### Basic options
 
 ```javascript
-$('#container').stickySectionHeaders();
+$('#container').stickyPageHeadings();
 ```
 
 Check out the [demo here](http://polarblau.github.com/stickySectionHeaders/).
