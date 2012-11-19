@@ -6,8 +6,6 @@
 $('section.sticky').stickyPageHeadings();
 ```
 
-Check out the [demo here](http://polarblau.github.com/stickySectionHeaders/).
-
 ### Settings and defaults
 
 ```javascript
