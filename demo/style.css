@@ -1,0 +1,27 @@
+body {margin:0; padding:0; font-family: sans-serif;}
+h1 {margin-left:1em}
+section {margin: 0 5%;}
+section p {margin-bottom:15em;}
+section.not h2 {background-color: green;}
+
+
+/* Here's the CSS that really matters */
+
+h2 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: .25em 2em;
+  background-color: black;
+  margin:2em 0 1em; 
+  margin-bottom:2em;
+}
+section.sticky h2.sticky {
+  position: fixed;
+  margin-top:0;
+  top:0;
+  z-index: 2;
+}
+section.sticky h2.hidden {
+  display: none;
+}
